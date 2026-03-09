@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VinylScan | Instantly identify and value any record</title>
+    <meta
+      name="description"
+      content="Scan vinyl records in seconds, identify pressings, and track collection value with VinylScan."
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="/">Vinyl<span>Scan</span></a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#features">Features</a>
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/support.html">Support</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-wrap">
+          <div>
+            <span class="kicker">For record collectors</span>
+            <h1>Scan any vinyl. Know its value in seconds.</h1>
+            <p>
+              VinylScan helps collectors identify pressings, estimate market value, and build a clean digital collection without manual searching.
+            </p>
+            <ul class="checklist">
+              <li><span class="check">✓</span> Instant scan + identification</li>
+              <li><span class="check">✓</span> Accurate market value estimates</li>
+              <li><span class="check">✓</span> Collection tracking and insights</li>
+            </ul>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="https://apps.apple.com" target="_blank" rel="noreferrer">Download on iOS</a>
+              <a class="btn btn-secondary" href="mailto:support@vinylscanapp.com">Contact Support</a>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <img class="mock" src="app-preview.png" alt="VinylScan app preview" />
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container">
+          <div class="grid-points">
+            <article class="point">
+              <h3>One-tap scanning</h3>
+              <p>Use your phone camera to identify a record instantly.</p>
+            </article>
+            <article class="point">
+              <h3>Real market value</h3>
+              <p>Understand what your records are worth right now.</p>
+            </article>
+            <article class="point">
+              <h3>Collection dashboard</h3>
+              <p>Organize your records and track total value over time.</p>
+            </article>
+            <article class="point">
+              <h3>Fast and private</h3>
+              <p>Your account data is secured and used only to power the app.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> VinylScan. All rights reserved.</small>
+        <div class="footer-links">
+          <a href="/privacy.html">Privacy Policy</a>
+          <a href="/terms.html">Terms of Use</a>
+          <a href="/support.html">Support</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
